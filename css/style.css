@@ -13,7 +13,7 @@ body {
 .contenedor {
 	width: 90%;
 	max-width: 1000px;
-	margin: 40px auto 100px auto;
+	margin: 40px auto 40px auto;
 
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -42,9 +42,7 @@ body {
 }
 
 .paginacion {
-	position: fixed;
 	bottom: 0;
-	background: #100a1f;
 	width: 100%;
 	display: flex;
 	justify-content: center;
